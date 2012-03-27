@@ -8,11 +8,16 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
     <!--                                                               -->
     <!-- Consider inlining CSS to reduce the number of requested files -->
     <!--                                                               -->
-    <link type="text/css" rel="stylesheet" href="NoteSyncDemo.css">
+    <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 
     <!--                                           -->
     <!-- Any title is fine                         -->
@@ -33,6 +38,51 @@
   <!-- to create a completely dynamic UI.        -->
   <!--                                           -->
   <body>
+  
+  <h1>OI Notepad</h1>
+  <div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="#">OI Sync</a></h1>
+				<p>Web Client for OI Notepad Sync</p>
+			</div>
+		</div>
+	</div>
+	<!-- end #header -->
+	
+	<!-- end #menu -->
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+				<div id="page-content">
+					<div id="content">
+						<div class="post">
+							<h2 class="title">Please wait for the list to be populated</h2>
+							<p class="meta">Add your notes, by typing and clicking add. Any notes from the android will auto synced</p>
+							<div class="entry">
+								<div id="notesList"></div>
+								
+							</div>
+						</div>
+						
+							
+						
+					
+					<!-- end #sidebar -->
+				</div>
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	<!-- end #page -->
+</div>
+<div id="footer">
+	
+</div>
+<!-- end #footer -->
+
+    
 
     <!-- OPTIONAL: include this if you want history support -->
     <iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
